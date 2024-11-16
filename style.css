@@ -1,0 +1,220 @@
+*{
+    margin : 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.box1{
+    width: 100%;
+    height: 100%;
+    background-color: #f2f3f5;
+
+}
+nav{
+    width : 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12%;
+}
+nav .navR{
+    display: flex;
+    gap: 6vh;
+}
+nav .navL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .navL img{
+    height: 13vh;
+    margin-right: 0.1vh;
+}
+
+.box1L{
+    width: 50%;
+    height: 110%;
+}
+.box1-inner{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.box1-inner .box1L h1{
+    font-size: 9vh;
+    color: #1e1e1e;
+    padding-top: 10vh ;
+    padding-left: 15vh;
+    line-height: 10vh;
+    font-weight: 100;
+    
+}
+.box1-inner .box1L p{
+    font-size: 2.5vh;
+    padding-top: 3vh ;
+    line-height: 4vh;
+    padding-left: 15vh;
+}
+.box1-inner .box1L button{
+    font-size: 2vh;
+   margin-left: 15vh;
+   margin-top: 5vh;
+   height: 5vh;
+   width: 12vw;
+   background-color: #1e1e1e;
+   color: white;
+   font-weight: 100;
+   border: none;
+   border-radius: 0.5vh;
+   transition: all 0.25s ;
+}
+.box1-inner .box1L button:hover{
+    color: #1e1e1e;
+    background-color: white;
+    border: 0.2vh solid #1e1e1e;
+}
+.box1-inner .box1L button i{
+    margin-left: 2vh;
+}
+.box1-inner .box1R{
+    width: 50%;
+    height: 110%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.box1-inner .box1R .divR{
+    /* width: 20%; */
+    height: 40%;
+    background-color: #1e1e1e;
+}
+.box1R .divR img{
+    height: 45vh;
+}
+.box2{
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    background-attachment: fixed;
+}
+.box2L{
+    width: 35%;
+}
+.box2L img{
+    height: 50vh;
+    margin-top: 15vh;
+    margin-left: 10vh;
+
+}
+.box2R{
+    width: 65%;
+   
+    align-items: center;
+}
+.box2R h1{
+    margin-top: 20%;
+    color:  #f2f3f5;
+    font-weight: 100;
+    margin-left: 1vh;
+    margin-bottom: 2vh;
+}
+.box2R h3{
+    color:  #f2f3f5;
+    margin-left: 1vh;
+    margin-bottom: 2vh;
+    font-weight: 100;
+}
+.box2R span {
+    color:  #f2f3f5;
+    margin-left: 1vh;
+    font-size: 4vh;
+    
+}
+.box2R p{
+    color:  #f2f3f5;
+    margin-left: 1vh;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    font-weight: 100;
+    font-size: 2.6vh;
+    
+}
+.box2R button{
+    width: 20vh;
+    height: 5vh;
+    margin-left: 5vh;
+    border: none;
+    font-size: 2vh;
+    border-radius: 0.3vh;
+    background-color: #f2f3f5;
+
+}
+.box3{
+    background-color: #f2f3f5;
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.box3L{
+    width: 65%;
+}
+.box3R img{
+    height: 60vh;
+    margin-top: 15vh;
+    margin-left: 10vh;
+
+}
+.box3R{
+    width: 35%;
+   
+    align-items: center;
+}
+.box3L h1{
+    margin-top: 20%;
+    color: #1e1e1e;
+    font-weight: 550;
+    margin-left: 15vh;
+    margin-bottom: 2vh;
+}
+.box3L h3{
+    
+    margin-left: 15vh;
+    margin-bottom: 2vh;
+}
+.box3L span {
+  
+    margin-left: 15vh;
+    font-size: 4vh;
+    
+}
+.box3L p{
+    color: #1e1e1e;
+    margin-left: 15vh;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    font-weight: 100;
+    font-size: 2.6vh;
+    
+}
+.box3L button{
+    width: 20vh;
+    height: 5vh;
+    margin-left: 5vh;
+    border: none;
+    font-size: 2vh;
+    border-radius: 0.3vh;
+    background-color: #1e1e1e;
+    color: white;
+
+}
+
+
+
+
